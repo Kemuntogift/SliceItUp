@@ -1,0 +1,9 @@
+.navbar-brand {
+    font-weight: bold;
+    color: #e23b3b;
+    font-family: 'Lemon', cursive;
+}
+
+.nav-link-custom {
+    color: #fff;
+}
