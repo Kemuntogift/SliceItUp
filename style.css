@@ -6,3 +6,9 @@
 .nav-link-custom {
     color: #fff;
 }
+
+.orderbtn {
+    padding: 10px;
+    background-color: #f88d10;
+    font-size: 20px;
+}
