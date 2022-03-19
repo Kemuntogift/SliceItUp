@@ -1,45 +1,48 @@
                     .navbar-brand {
-                    font-weight: bold;
-                    color: #e23b3b;
-                }
-                
-                .nav-link-custom {
-                    color: #fff;
-                }
-                
-                .orderbtn {
-                    padding: 10px;
-                    background-color: #f88d10;
-                    font-size: 20px;
-                }
-                
-                .hero-text {
-                    color: #fff;
-                    width: 50%;
-                }
-                
-                .menusection {
-                    color: #e23b3b;
-                    text-align: center;
-                }
-                
-                .card-title {
-                    color: black
-                }
-                
-                .card-text {
-                    color: black;
-                }
-                
-                .card {
-                    border-radius: 10px;
-                }
-                
-                .card-text2 {
-                    color: #e23b3b;
-                }
-                
-                .placeorderbtn {
-                    padding: 5px;
-                    background-color: #f88d10;
-                    font-size: 20px;
+                        font-weight: bold;
+                        color: #e23b3b;
+                    }
+                    
+                    .nav-link-custom {
+                        color: #fff;
+                    }
+                    
+                    .orderbtn {
+                        padding: 10px;
+                        background-color: #f88d10;
+                        font-size: 20px;
+                        border-radius: 10px;
+                    }
+                    
+                    .hero-text {
+                        color: #fff;
+                        width: 50%;
+                    }
+                    
+                    .menusection {
+                        color: #e23b3b;
+                        text-align: center;
+                    }
+                    
+                    .card-title {
+                        color: black
+                    }
+                    
+                    .card-text {
+                        color: black;
+                    }
+                    
+                    .card {
+                        border-radius: 10px;
+                    }
+                    
+                    .card-text2 {
+                        color: #e23b3b;
+                    }
+                    
+                    .placeorderbtn {
+                        padding: 5px;
+                        background-color: #f88d10;
+                        font-size: 20px;
+                        border-radius: 10px;
+                    }
