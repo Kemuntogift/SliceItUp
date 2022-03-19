@@ -6,3 +6,8 @@ $(document).ready(function() {
                         var topping = parseFloat(document.getElementById('extra-topping').value);
                         var quantity = parseFloat(document.getElementById('number').value);
                         var total = (flavour + size + crust + topping + quantity + Amount);
+
+                        document.getElementById("getsize").innerHTML = Size;
+                        document.getElementById("getcrust").innerHTML = Crust;
+                        document.getElementById("gettopping").innerHTML = Topping;
+                        document.getElementById("sum").innerHTML = total;
