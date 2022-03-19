@@ -30,3 +30,7 @@
 .card-text {
     color: black;
 }
+
+.card {
+    border-radius: 10px;
+}
