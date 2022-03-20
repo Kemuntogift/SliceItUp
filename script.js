@@ -18,3 +18,15 @@ function topping(name, price) {
 function address(location) {
     this.location = location;
 }
+
+//pricingv
+let pizzaPrices = {
+    Small: 600,
+    Medium: 700,
+    Large: 900
+}
+let crustPrices = {
+    Crispy: 100,
+    Stuffed: 150,
+    Gluten_Free: 200
+}
