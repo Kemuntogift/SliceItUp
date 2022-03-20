@@ -67,5 +67,10 @@ $(document).ready(function() {
                             let crust = $("#crust option:selected").val();
                             let topping = $("#extra-toppings option:selected").val();
                             let quantity = $("#number").val();
+                            //function
+                            let order = (flavour, size, crust, topping, number, total) => {
+                                return { flavour, size, crust, topping, number, total };
+                            }
+
 
                         });
