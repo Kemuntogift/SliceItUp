@@ -57,3 +57,10 @@
                         text-decoration: none;
                         color: black;
                     }
+                    
+                    .output-data {
+                        display: none;
+                        max-height: 35em;
+                        overflow: scroll;
+                        padding-bottom: 1em;
+                    }
