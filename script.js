@@ -73,5 +73,10 @@ $(document).ready(function() {
                             }
                             let newOrder = order(flavour, size, crust, topping, number);
                             console.log(newOrder);
-
+                            $('.output-data').text(" ");
+                            $(".output-data").append("<br>" + "Flavour :   " + newOrder.flavour + "<br>" + "Size :   " +
+                                newOrder.size + "<br>" + "Crust :     " +
+                                newOrder.crust + "<br>" + "Toppings :     " +
+                                newOrder.topping + "<br>" + " Number of pizza :    " +
+                                newOrder.number + "<br> ")
                         });
