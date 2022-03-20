@@ -1,5 +1,5 @@
 //object constructors
-function order(pizza, pizzaPrice, crust, crustPrice) {
+function myOrder(pizza, pizzaPrice, crust, crustPrice) {
     this.pizzaSize = {
         size: pizza,
         price: pizzaPrice
@@ -33,23 +33,20 @@ let crustPrices = {
 let largeToppingPrices = 200
 let mediumToppingPrices = 100
 let smallToppingPrices = 50
-$("#delivery-checkbox").click(function(event) {
-    //   $(".addAddress").toggle();
 
-    if (document.querySelector('#delivery-checkbox').checked) {
-        // $('#addressModal').modal();
-        // $("#addressModal").show();
-    } else {
-        // $(".checkout").attr("disabled", false);
-    }
+$(document).ready(function() {
+    $("#delivery-checkbox").click(function(event) {
+        if (document.querySelector('#delivery-checkbox').checked) {} else {
 
+        }
+
+    });
 });
-
 
 $(document).ready(function() {
 
             // Order 
-            $("form#new-order").submit(function(event) {
+            $("form#nOrder").submit(function(event) {
                         event.preventDefault();
 
                         var pizzaSize = $("#size").val();
@@ -64,3 +61,11 @@ $(document).ready(function() {
                             else(!isChecked) {
                                 alert('Add a topping!');
                             }
+
+                            let flavour = $("#flavour option:selected").val();
+                            let size = $("#size option:selected").val();
+                            let crust = $("#crust option:selected").val();
+                            let topping = $("#extra-toppings option:selected").val();
+                            let quantity = $("#number").val();
+
+                        });
