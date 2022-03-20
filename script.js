@@ -33,15 +33,3 @@ let crustPrices = {
 let largeToppingPrices = 200
 let mediumToppingPrices = 100
 let smallToppingPrices = 50
-
-$(document).ready(function() {
-            $("#delivery-checkbox").click(function(event) {
-
-
-                if (document.querySelector('#delivery-checkbox').checked) {
-
-                } else {
-
-                }
-
-            });
