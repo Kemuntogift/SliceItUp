@@ -71,6 +71,7 @@ $(document).ready(function() {
                             let order = (flavour, size, crust, topping, number, total) => {
                                 return { flavour, size, crust, topping, number, total };
                             }
-
+                            let newOrder = order(flavour, size, crust, topping, number);
+                            console.log(newOrder);
 
                         });
