@@ -19,7 +19,7 @@ function address(location) {
     this.location = location;
 }
 
-//pricingv
+//pricing
 let pizzaPrices = {
     Small: 600,
     Medium: 700,
@@ -30,3 +30,18 @@ let crustPrices = {
     Stuffed: 150,
     Gluten_Free: 200
 }
+let largeToppingPrices = 200
+let mediumToppingPrices = 100
+let smallToppingPrices = 50
+
+$(document).ready(function() {
+            $("#delivery-checkbox").click(function(event) {
+
+
+                if (document.querySelector('#delivery-checkbox').checked) {
+
+                } else {
+
+                }
+
+            });
