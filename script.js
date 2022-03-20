@@ -1,5 +1,5 @@
-//function constructors
-function Order(pizza, pizzaPrice, crust, crustPrice) {
+//object constructors
+function order(pizza, pizzaPrice, crust, crustPrice) {
     this.pizzaSize = {
         size: pizza,
         price: pizzaPrice
@@ -8,4 +8,9 @@ function Order(pizza, pizzaPrice, crust, crustPrice) {
         crustName: crust,
         price: crustPrice
     };
+}
+
+function topping(name, price) {
+    this.toppingName = name;
+    this.price = price;
 }
