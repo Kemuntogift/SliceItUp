@@ -14,3 +14,7 @@ function topping(name, price) {
     this.toppingName = name;
     this.price = price;
 }
+
+function address(location) {
+    this.location = location;
+}
