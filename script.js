@@ -33,3 +33,34 @@ let crustPrices = {
 let largeToppingPrices = 200
 let mediumToppingPrices = 100
 let smallToppingPrices = 50
+$("#delivery-checkbox").click(function(event) {
+    //   $(".addAddress").toggle();
+
+    if (document.querySelector('#delivery-checkbox').checked) {
+        // $('#addressModal').modal();
+        // $("#addressModal").show();
+    } else {
+        // $(".checkout").attr("disabled", false);
+    }
+
+});
+
+
+$(document).ready(function() {
+
+            // Order 
+            $("form#new-order").submit(function(event) {
+                        event.preventDefault();
+
+                        var pizzaSize = $("#size").val();
+                        var crust = $("#crust").val();
+
+                        var checkBoxes = document.getElementsByClassName('form-check-input');
+                        var isChecked = false;
+                        for (var i = 0; i < checkBoxes.length; i++) {
+                            if (checkBoxes[i].checked) {
+                                isChecked = true;
+                            };
+                            else(!isChecked) {
+                                alert('Add a topping!');
+                            }
