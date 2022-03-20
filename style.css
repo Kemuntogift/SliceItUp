@@ -50,3 +50,9 @@
                     #footer {
                         background-color: #f88d10;
                     }
+                    
+                    .fa {
+                        padding: 25px;
+                        text-decoration: none;
+                        color: black;
+                    }
